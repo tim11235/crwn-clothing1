@@ -1,5 +1,6 @@
 import './category.styles.scss';
 
+//component that will displays an Item
 const CategoryItem = ({ category }) => {
   const { imageUrl, title } = category;
   return (
